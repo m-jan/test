@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css?family=Arima Madurai:700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400");
+
+body, button, input, h3, h4, h5, h6, #shopping-list h2 small, #shopping-list h2 span {
+font-family: 'Roboto' !important;
+font-weight: 400 !important;
+}
+ #recipeTitle, #shopping-list h3, #shopping-list h2, .carousel h2, #add-to-basket h1, .list-dialog h1,
+.initial-retailer-selector-container .heading {
+font-family: 'Arima Madurai' !important;
+font-weight: 700 !important;
+}
+
+/* primary: #396345 */
+/* primary (button text): #ffffff */
+
+/* secondary: #B32E3A */
+/* secondary (button text): #ffffff */
+
+/* font-color: #202224 */
+
+body {
+    background: #FFFFFF;
+    background-size: auto;
+    color: #000000 !important;
+}
+
+h1, h2 {
+    line-height: 1.3em;
+}
+
+a {
+    color: #f60001 !important;
+}
+
+body, h3, h4, h5, p, span, strong, label, input, a,
+ul#my-recipes li .recipe .recipe-detail figure h2,
+.cross-sell .you-may-also-like figure h2,
+.cross-sell .you-have-almost-made figure h2 {
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.carousel h2, .product-info h4, label {
+    color: #202224 !important;
+}
+
+#shopping-list ul.items li.item .shopping-list-item .swapOption a,
+.pantry-ingredients-container .viewHide,
+.fas,
+ul#my-recipes li .recipe .recipe-detail aside {
+    color: #f60001 !important;
+}
+
+#shopping-list ul.groups h1, #shopping-list header h2, h4, h5,
+#shopping-list ul.items li.item .shopping-list-item .product-info .pricing,
+#shopping-list ul.items li.item .shopping-list-item .product-info .pricing-mobile,
+#completed .fas,
+#shopping-list ul.items li.item .shopping-list-item .product-info h3,
+ul#retailers li a,
+#add-to-basket h1, #add-to-basket h2, #add-to-basket h3,
+#sharing-options h2, #sharing-options  h3{
+    color: #f60001 !important;
+}
+
+#sharing-options h1 {
+    color: #f60001 !important;
+}
+
+#sharing-options dt {
+    border-color: #f60001 !important;
+    color: #f60001 !important;
+}
+
+#sharing-options > section {
+    border-color: #f60001 !important;
+}
+
+#add-to-basket #login-btn, #add-to-basket #adimo-login-btn, 
+#adimo-store-selection-btn,
+#sharing-options .button {
+    background-color: #f60001 !important;
+}
+
+#add-to-basket #checkout-btn {
+    border: 3px solid #f60001 !important;
+    background-color: #f60001 !important;
+}
+
+#sharing-options dt i {
+    color: #f60001 !important;
+}
+
+
+
+
+.retailers-container .postal .postcode {
+    border: 2px solid #f60001 !important;
+}
+
+
+#shopping-list ul.items li.item .shopping-list-item .quantity-container input,
+.servingsSelector input {
+    color: #202224 !important;
+}
+
+.servingsSelector button {
+    color: #ffffff !important;
+    background-color: #f60001 !important;
+}
+
+
+
+#add-to-basket button {
+    color: #ffffff !important;
+    background-color: #f60001 !important;
+}
+
+
+.recipe-detail h2 {
+    color: #ffffff !important;
+}
+
+
+
+.retailers-container ul#retailers li.selected,
+.retailers-container ul#retailers li:hover,
+/* ul#budget-options li.selected,
+ul#budget-options li:hover  */
+{
+    border-color: #f60001 !important;
+}
+
+.retailers-container ul#retailers li,
+/* ul#budget-options li, 
+#add-to-basket fieldset .row .textbox,*/
+#add-to-basket > section,
+#quickview {
+    border-color: #f60001 !important;
+}
+
+    /*#add-to-basket fieldset .row .textbox,
+    #add-to-basket fieldset .row .textbox::placeholder,
+    .searchBox .fas, .retailers-container .postal label {
+        color: #f60001 !important;
+    }*/
+
+/* for cb */
+
+.retailers-container h2,
+/* .budget-container h2, */
+.list-dialog h2 {
+    color: #f60001 !important;
+}
+
+#main-list, .send-to-retailer-container .send-to-retailer,
+.list-dialog, .list-dialog {
+    /*border: 3px solid #f60001 !important;*/
+}
+
+.send-to-retailer-container .send-to-retailer {
+    border-top: none !important;
+}
+
+.recipe .colRight {
+    border-left: 3px solid #f60001 !important;
+}
+
+#budget-options li.budget-option {
+    color: #f60001 !important;
+}
+
+    #budget-options li.budget-option.selected {
+        color: #f60001 !important;
+        font-weight: bold !important;
+    }
+
+/*#add-to-basket,*/ 
+aside.add button {
+    color: #f60001 !important;
+}
+
+.view .options .option span, .retailers-container .postal .primary {
+    background-color: #f60001 !important;
+}
+
+.view .options .option.selected span {
+    background-color: #f60001 !important;
+}
+
+#shopping-list ul.items li.item .shopping-list-item .quantity-container button,
+#shopping-list ul.items li.item .shopping-list-item .quantity-container-mobile button {
+    background-color: #f60001 !important;
+}
+
+#shopping-list ul.items li.item .shopping-list-item .quantity-container input[type="text"] {
+    color: #f60001 !important;
+}
+
+.cross-sell-component ul li .buttons button,
+.send-to-retailer-container .send-to-retailer,
+/*.checkout-options, .checkout-options .fixed-options,*/ 
+.mobile .checkout-mobile-container {
+    background-color: #f60001 !important;
+}
+
+.cross-sell-component ul li h1,
+.mobile-swap,
+.do-login .container,
+#quickview h2 {
+    color: #f60001 !important;
+}
+
+.cross-sell-component ul li h1 span,
+.cross-sell-component .options .extra strong,
+h2.mobile,
+.selection.in-store i,
+.addOption a,
+#quickview h1, #quickview ul li .text,
+#quickview .fa-check {
+    color: #f60001 !important;
+}
+
+.pager ul li {
+    border-color: #f60001 !important;
+}
+
+    .pager ul li.selected {
+        border-color: #f60001 !important;
+        background-color: #f60001 !important;
+    }
+
+/*.row .textbox {
+    border: 2px solid #f60001 !important;
+}*/
+
+#no-retailers-for-region,
+#select-region-modal {
+    border-color: #f60001 !important;
+}
+
+#select-region-modal .title,
+.region-selector .country-selector .change-region-button,
+.region-selector .language-selector .languages-list .language-item .lang-button {
+    color: #f60001 !important;
+}
+
+.region-selector .language-selector .languages-list .language-item {
+    border-color: #f60001 !important;
+}
+
+/* 
+CHANGE ALL SECONDARY TO PRIMARY
+*/
+
+#recipeTitle,
+.quantity-container span.unit,
+.pricing-container .pricing {
+    color: #f60001 !important;
+}
+
+.retailers-container .button.share {
+    color: #f60001 !important;
+    border-color: #f60001 !important;
+}
+
+.initial-retailer-selector-container .heading {
+  color: #f60001 !important;
+}
+
+.initial-retailer-selector-container .retailer-list li:hover
+.initial-retailer-selector-container .retailer-list li button.selected {
+  border-color: #f60001 !important;
+}
+
+.initial-retailer-selector-container .confirm-retailer .confirm-retailer-button:not(:disabled){
+  background-color: #f60001 !important;
+}
+
+#add-to-basket {
+  background-color: #f60001 !important;
+}
+
+#add-to-basket .header .close-btn {
+  color: #f60001 !important;
+}
+
+#add-to-basket .header .close-btn-disabled {
+  color: #eeeeee !important
+}
+
+.checkout-options .total-price {
+  color: #f60001 !important;
+}
